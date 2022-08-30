@@ -1,0 +1,255 @@
+ fonts start */
+@font-face{
+	src: url(../fonts/poppins/poppins-bold.ttf);
+	font-family: sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/poppins/poppins-medium.ttf);
+	font-family: sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/poppins/poppins-regular.ttf);
+	font-family: sans-serif;
+
+}
+@font-face{
+	src: url(../fonts/roboto/roboto-regular.ttf);
+	font-family: sans-serif;
+
+}
+/* fonts end */
+/* common start */
+body{
+	font-family: 'poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000000;
+}
+/* common start */
+/* header start */
+header{
+	background-color: #ddf3dd;;
+	padding: 10px 0;
+}
+.cnav{}
+.logo{
+	width: 200px;
+}
+.menu{}
+.menu ul li a {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #000000 !important;
+	padding: 0 20px !important;
+}
+.menu ul li a:hover {
+	color: #FD511A !important;
+}
+.btn_common{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 19px;
+	background: #21B573;
+	border: transparent;
+	border-radius: 33px;
+	
+}
+.btn_header{
+	margin-left: 10px;
+	width: 104px;
+	height: 43px;
+}
+.btn_common:hover{
+	color: #ffffff;
+	background-color: #FD511A;
+}
+/* header end */
+/* banner start */
+.banner{
+	background-color: #ddf3dd;
+	padding: 60px 0;
+}
+.b_text{
+	padding-right: 85px;
+}
+.b_text1{
+	color: #FD511A;
+	line-height: 24px;
+
+}
+.b_h1{
+	margin: 10px 0 20px;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 70px;
+}
+.b_h1 span{
+	color: #21B573;
+}
+.b_text2{
+	line-height: 36px;
+}
+.b_link{
+	margin-top: 15px;
+	width: 155px;
+	height: 45px;
+	padding: 14px 35px;
+}
+.b_image{
+	/*padding: 0 100px;*/
+}
+.b_image img{}
+/* banner end */
+/* feature start */
+.feature{
+	padding: 40px 0 100px;
+}
+.s_feature{
+	background-color: #ddf3dd;
+	text-align: center;
+	padding: 55px 0 50px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+.s_feature:hover{
+	background-color: #ffffff;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f_img{}
+.f_img img{}
+.s_feature h2{
+	margin: 20px 0 0;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	color: #000000;
+}
+.s_feature p{
+	line-height: 24px;
+}
+/* feature end */
+/* courses start */
+.courses{
+	padding: 0 0 100px;
+}
+.common_title{}
+.common_title h1{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 54px;
+}
+.single_course{
+	margin-top: 50px;
+	padding: 25px 20px 30px;
+	box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 18px;
+}
+.course_image{}
+.course_image img{
+	width: 100%;
+	border-radius: 12px;
+}
+.single_course h2{
+	margin: 18px 0 5px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+}
+.single_course p{
+	line-height: 24px;
+}
+.single_course a{}
+.btn_course{
+	margin: 18px 0 35px;
+	width: 135px;
+	height: 35px;
+	padding: 8px 25px;
+}
+.c_footer{}
+.left{}
+.right{}
+.mr_custom{
+	margin-right: 6px;
+}
+.left ul li img, .right ul li img{}
+.left ul li span, .right ul li span{
+	font-weight: 500;
+	line-height: 24px;
+	color: #585859;
+}
+/* courses end */
+/* slider start */
+.slider{}
+.carousel_wrapper{
+	padding-top: 70px;
+    padding-bottom: 110px;
+    padding-right: 125px;
+}
+.s_image{}
+.s_image img{}
+.s_text{}
+.s_text p{
+	margin-top: 10px;
+	line-height: 30px;
+}
+ /* slider end */
+
+/* footer start */
+.footer{
+	background-color: #000000;
+	padding: 50px 100px 20px;
+}
+.footer_text{}
+.footer_text p{
+	margin-top: 6px;
+	margin-right: 40px;
+	text-align: justify;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.footer_nav{}
+.footer_nav ul li{}
+.footer_nav ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+.footer_nav ul li a:hover{
+	color: #FD511A !important;
+}
+.footer_nav ul li a span{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+.footer_nav ul li a span:hover{
+	color: #FD511A !important;
+}
+/* copyright start */
+.copyright{}
+.copyright p{
+	font-size: 15px;
+	margin-top: 70px;
+	letter-spacing: 1px;
+	line-height: 30px;
+	color: #CDCDCD;
+}
+.copyright p a{
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 30px;
+	color: #FD511A;
+}
+
+.copyright p a:hover{
+	color: #ffffff !important;
+}
+/* copyright end */
+
+/* footer end 
